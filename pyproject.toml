@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nepali-wallets"
+version = "0.1.0"
+description = "An SDK for payment gateways integration in Nepal."
+authors = ["MaGNeT <themagnetplays@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "nepali_wallets" }]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.27.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+python-decouple = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
